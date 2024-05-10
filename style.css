@@ -1,0 +1,5 @@
+/* Apply below css for all element & web page margin and padding are zero */
+*{
+    margin: 0;
+    padding: 0;
+}
