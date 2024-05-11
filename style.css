@@ -232,4 +232,67 @@
     border-radius: 16px;
 }
 
+/* Below css apply for subscribe-newsletter */
+.subscribe-container{
+    margin: 0px 140px 120px 140px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.subscribe-info > img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 40px;
+    display: block;
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.subscribe-info>h1{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+}
+.subscribe-info>p{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.subscribe-input-btn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.subscribe-input-btn>input{
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    background: #FFF;
+    border: none;
+}
+.subscribe-input-btn>button{
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    right: 350px;
+    border: none;
+    cursor: pointer;
+}
+input::placeholder { 
+    position: absolute; 
+    top: 50%; 
+    left: 30px; 
+    transform: translateY(-50%); 
+} 
+
 
