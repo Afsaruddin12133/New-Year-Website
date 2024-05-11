@@ -201,3 +201,35 @@
     align-self: flex-end;
     left: 250px;
 }
+
+/* Below css apply for portfolio-container */
+.portfolio-container{
+    margin: 0px 140px 120px 140px;
+}
+.portfolio-info > h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+.portfolio-info > *{
+    margin-bottom: 10px;
+}
+.portfolio-info > p{
+    margin-bottom: 50px;
+}
+
+.portfolio-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 610px;
+}
+.portfolio-img > img{
+    width: 350px;
+    height: 300px;
+    border-radius: 16px;
+}
+
+
