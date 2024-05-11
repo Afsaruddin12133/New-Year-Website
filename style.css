@@ -295,4 +295,41 @@ input::placeholder {
     transform: translateY(-50%); 
 } 
 
+/* Below css apply for footer-container */
+.footer-container{
+    background: #070211;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 0px 140px 10px 140px;
+    padding-top: 120px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+hr{
+    margin: 0px 140px;
+    
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: center;   
+}
+.footer-icon > *{
+    padding: 40px;
+
+}
+.footer-mobile-address > img{
+   width: 12px;
+}
+.footer-right{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 50px 140px 0px 140px;
+    padding-bottom: 120px;
+}
+
 
