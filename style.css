@@ -3,10 +3,6 @@
     margin: 0;
     padding: 0;
 }
-/* Apply below css for box fixed width */
-.box-size{
-    width: 1320px;
-}
 /* Apply below css for make a primary button */
 .primary-button{
     display: inline-flex;
@@ -16,6 +12,9 @@
     gap: 10px;
     border-radius: 8px;
     background: #F00;
+    cursor: pointer;
+    border: none;
+    color: white;
 }
 /* Apply below css for header-container */
 .header-container{
@@ -25,7 +24,7 @@
     height: 600px;
     border-radius: 16px;
     margin: 0 auto;
-    margin: 50px 140px 120px 140px;
+    margin: 50px 140px 0px 140px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,14 +84,12 @@
 }
 
 /* Below css apply for midnight party  */
-
 .party-container{
     background-image: url(./images/party.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 600px;
-    margin: 0px 140px 120px 140px;
-    
+    margin: 0px 140px 0px 140px;
 }
 .party-container h1{
     color: #FFF;
@@ -112,16 +109,29 @@
     line-height: 30px; 
     margin-bottom: 20px;
 }
-.party-container button{
-    color: #FFF;
-    text-align: center;
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: uppercase;
-    border: none;
-    cursor:  pointer;
-}
 .party-container > * {
     margin-left: 120px;
+}
+
+/* Below css apply for party-info  */
+.party-info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 0px 140px 120px 140px;
+}
+
+.party-info > *  {
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+.party-info > button{
+    display: block;
+    margin: 40px auto;
+}
+.span-color{
+    color: #F00;
 }
