@@ -231,6 +231,10 @@
     height: 300px;
     border-radius: 16px;
 }
+.portfolio-img img:hover{
+    cursor: pointer;
+    transform: rotateX(30deg);
+}
 
 /* Below css apply for subscribe-newsletter */
 .subscribe-container{
