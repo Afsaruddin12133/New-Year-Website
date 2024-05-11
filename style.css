@@ -126,6 +126,7 @@
 .party-info > *  {
     padding-bottom: 20px;
     text-align: center;
+    font-family: Inter;
 
 }
 .party-info > button{
@@ -134,4 +135,33 @@
 }
 .span-color{
     color: #F00;
+}
+
+/* Below css apply for New-Best-Offer */
+.best-offer-container{
+    margin: 0px 140px 120px 140px;
+    height: 470px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+}
+.best-offer-left-info > *{
+    margin-bottom: 20px;
+    font-family: Inter;
+}
+.best-offer-middle-img >img{
+    border-radius: 50%;
+    border: 15px solid #F00;
+    padding: 38px;
+    margin: 40px;
+}
+.best-offer-right-info > *{
+    margin-bottom: 40px;
+    font-family: Inter;
+}
+.best-offer-right-info > img{
+    width: 140px;
+    height: 140px;
+
 }
