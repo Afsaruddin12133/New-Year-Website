@@ -144,7 +144,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid red;
 }
 .best-offer-left-info > *{
     margin-bottom: 20px;
@@ -163,5 +162,42 @@
 .best-offer-right-info > img{
     width: 140px;
     height: 140px;
-
+}
+/* Below css apply for Holidays-sale-container */
+.holidays-sale-container{
+    margin: 0px 140px 120px 140px;
+}
+.holidays-sale-info > *{
+    text-align: center;
+    font-family: Inter;
+    margin-bottom: 25px;
+}
+.holidays-sale-info > h1{
+    font-size: 72px;
+    font-weight: 900;
+}
+.holidays-sale-wow-girl{
+    display: flex;
+    justify-content: flex-end;
+}
+.holidays-sale-wow-girl > img[alt="Discount"] {
+    margin: 10px;
+    position: absolute;
+    right: 400px;
+    align-self: center;
+}
+.holidays-sale-discount-box{
+    display: flex;
+    justify-content: left;
+}
+.holidays-sale-discount-box > img[alt="Rectangle"]{
+    height: 230px;
+    width: 100%;
+}
+.holidays-sale-discount-box > img[alt="Box"] {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    align-self: flex-end;
+    left: 250px;
 }
