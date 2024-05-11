@@ -7,6 +7,16 @@
 .box-size{
     width: 1320px;
 }
+/* Apply below css for make a primary button */
+.primary-button{
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+}
 /* Apply below css for header-container */
 .header-container{
     background-image: url(./images/Banner\ Image.png);
@@ -38,6 +48,8 @@
 }
 
 /* Apply below css for body part */
+
+/* Below css apply for .discount-container */
 .discount-container{
     display: flex;
     align-items: center;
@@ -70,4 +82,46 @@
 .discount-container-info img {
     width: 802.9px;
     height: 500px;
+}
+
+/* Below css apply for midnight party  */
+
+.party-container{
+    background-image: url(./images/party.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+    margin: 0px 140px 120px 140px;
+    
+}
+.party-container h1{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px; 
+    letter-spacing: 7.04px;
+    margin-bottom: 20px;
+    padding-top: 120px;
+}
+.party-container p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    margin-bottom: 20px;
+}
+.party-container button{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    cursor:  pointer;
+}
+.party-container > * {
+    margin-left: 120px;
 }
