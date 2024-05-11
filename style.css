@@ -3,3 +3,38 @@
     margin: 0;
     padding: 0;
 }
+/* Apply below css for box fixed width */
+.box-size{
+    width: 1320px;
+}
+/* Apply below css for header-container */
+.header-container{
+    background-image: url(./images/Banner\ Image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 600px;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin: 50px 140px 120px 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.header-container h1{
+    color: #f7f7f7;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px; 
+}
+.header-container h3{
+    color: #f7f7f7;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    
+}
